@@ -1,0 +1,29 @@
+1. Goto project directory 
+
+2. Create Virtual env .venv using 
+ py -3 -m venv <.venv>
+
+3. Activate the environment 
+ .venv\Scripts\activate.bat
+
+4. virtual environment should be activated with <.venv before cmd prompt symbol>
+
+5. install flask in  you venv
+
+ pip install Flask
+
+6. once installed write a small code to instantiate flask app in python
+from flask import Flask
+
+app = Flask(__name__)
+
+7a. run your code using
+flask --app <hello> run --debug //if you want to switch debug and don't want to run program after every save
+
+OR
+
+7b. set the environment variable as your fie name and just run flask rub cmd
+
+set FLASK_APP= server.py
+flask run
+
