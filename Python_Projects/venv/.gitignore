@@ -1,4 +1,4 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
 # ignore all files from Lib and pycache folder
 __pycache__/*
-Lib\site-packages/*
+Lib/*
